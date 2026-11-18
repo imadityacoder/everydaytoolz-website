@@ -167,7 +167,7 @@ export default async function Image({
               border: "1px solid rgba(79, 209, 255, 0.3)",
             }}
           >
-            ⚡ 100% Free • No Login Required • In-Browser
+            100% Free • No Login Required • In-Browser
           </div>
 
           <div
