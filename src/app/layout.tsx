@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import "./globals.css";
 import { ThemeProvider } from "@/components/providers/ThemeProvider";
 import { AppHeader } from "@/components/layout/AppHeader";
@@ -57,9 +58,18 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const adsenseClientId =
+    process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID || "ca-pub-1128782780487258";
+
   return (
     <html lang="en" suppressHydrationWarning>
       <body className="min-h-screen bg-background text-foreground antialiased selection:bg-primary/20 selection:text-primary">
+        <Script
+          async
+          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsenseClientId}`}
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
         <ThemeProvider>
           <div className="relative min-h-screen flex flex-col">
             <AppHeader />

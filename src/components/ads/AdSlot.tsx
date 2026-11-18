@@ -7,12 +7,23 @@ export type AdPosition = "top-banner" | "bottom-result" | "right-rail";
 
 interface AdSlotProps {
   position: AdPosition;
+  slotId?: string;
   cpcTier?: "high" | "volume";
   className?: string;
 }
 
-export function AdSlot({ position, cpcTier = "volume", className }: AdSlotProps) {
-  const isDev = process.env.NODE_ENV === "development" || !process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID;
+export function AdSlot({ position, slotId, cpcTier = "volume", className }: AdSlotProps) {
+  const clientId = process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID || "ca-pub-1128782780487258";
+  const isDev = process.env.NODE_ENV === "development" && !process.env.NEXT_PUBLIC_ADSENSE_ENABLE_DEV;
+
+  // Resolve custom or environment-specified numeric slot ID
+  const adSlotId =
+    slotId ||
+    (position === "right-rail"
+      ? process.env.NEXT_PUBLIC_ADSENSE_SLOT_RIGHT_RAIL
+      : position === "top-banner"
+      ? process.env.NEXT_PUBLIC_ADSENSE_SLOT_TOP_BANNER
+      : process.env.NEXT_PUBLIC_ADSENSE_SLOT_BOTTOM);
 
   // Exact dimension reservations to guarantee CLS = 0
   const slotConfigs = {
@@ -87,8 +98,8 @@ export function AdSlot({ position, cpcTier = "volume", className }: AdSlotProps)
           <ins
             className="adsbygoogle"
             style={{ display: "block" }}
-            data-ad-client={process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID}
-            data-ad-slot={position}
+            data-ad-client={clientId}
+            {...(adSlotId ? { "data-ad-slot": adSlotId } : {})}
             data-ad-format={config.format}
             data-full-width-responsive="true"
           />
