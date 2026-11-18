@@ -31,7 +31,7 @@ export const TOOLS_REGISTRY: ToolDefinition[] = [
       "lump sum vs sip returns"
     ],
     "seoTitle": "SIP Calculator \u2013 Compound Returns & Step-Up Plan",
-    "seoDescription": "Calculate mutual fund returns with our free SIP calculator. Model compound growth, step-up contributions, and wealth accumulation online with zero login.",
+    "seoDescription": "Calculate mutual fund returns with our free SIP calculator. Model compound growth, step-up plans, and wealth online. 100% free with no login required.",
     "editorialGuide": {
       "howToSteps": [
         "Choose your investment mode: Monthly SIP for recurring deposits or Lumpsum for one-time contributions.",
@@ -49,6 +49,10 @@ export const TOOLS_REGISTRY: ToolDefinition[] = [
       ]
     },
     "faqs": [
+      {
+        "question": "Is this tool 100% free to use, and is any login required?",
+        "answer": "Yes, this tool is 100% free with no login required, no account creation, no subscriptions, and zero paywalls. All calculations and processing run privately on your device."
+      },
       {
         "question": "What is a Systematic Investment Plan (SIP) and how does it work?",
         "answer": "A Systematic Investment Plan (SIP) is a wealth-building method where an investor commits a fixed dollar or rupee amount at regular intervals into a mutual fund scheme. It reduces market timing risk through dollar-cost averaging and compounds periodic yields over multi-year horizons."
@@ -124,7 +128,7 @@ export const TOOLS_REGISTRY: ToolDefinition[] = [
       "provident fund deduction"
     ],
     "seoTitle": "EMI & Salary Calculator \u2013 Loan Schedule & In-Hand Pay",
-    "seoDescription": "Calculate home loan EMI amortization and convert CTC to take-home salary instantly. Accurate financial tax deductions with zero login required online.",
+    "seoDescription": "Calculate loan EMI amortization and convert CTC to take-home in-hand salary with accurate tax deductions. 100% free with no login required online.",
     "editorialGuide": {
       "howToSteps": [
         "Select your mode: Loan EMI Calculator or CTC to In-Hand Salary Calculator.",
@@ -142,6 +146,10 @@ export const TOOLS_REGISTRY: ToolDefinition[] = [
       ]
     },
     "faqs": [
+      {
+        "question": "Is this tool 100% free to use, and is any login required?",
+        "answer": "Yes, this tool is 100% free with no login required, no account creation, no subscriptions, and zero paywalls. All calculations and processing run privately on your device."
+      },
       {
         "question": "How is the Equated Monthly Installment (EMI) mathematically calculated?",
         "answer": "EMI is derived using the standard reducing-balance loan formula: EMI = [P \u00d7 r \u00d7 (1 + r)^n] / [(1 + r)^n - 1], where P is the borrowed principal, r is the monthly interest rate, and n is the tenure in months."
@@ -212,7 +220,7 @@ export const TOOLS_REGISTRY: ToolDefinition[] = [
       "zero upload pdf editor"
     ],
     "seoTitle": "PDF Merger & Splitter \u2013 Combine PDF Pages Online Free",
-    "seoDescription": "Merge, split, reorder, and extract PDF pages directly inside your web browser. 100% private client-side processing with zero file uploads and zero login.",
+    "seoDescription": "Merge, split, reorder, and extract PDF pages directly in your browser. 100% free with no login required, zero file uploads, and complete privacy.",
     "editorialGuide": {
       "howToSteps": [
         "Drag and drop one or more PDF files into the local workspace drop zone.",
@@ -230,6 +238,10 @@ export const TOOLS_REGISTRY: ToolDefinition[] = [
       ]
     },
     "faqs": [
+      {
+        "question": "Is this tool 100% free to use, and is any login required?",
+        "answer": "Yes, this tool is 100% free with no login required, no account creation, no subscriptions, and zero paywalls. All calculations and processing run privately on your device."
+      },
       {
         "question": "Are my confidential PDF documents uploaded to an external server?",
         "answer": "Never. All PDF operations\u2014including parsing, reordering, extracting, and merging\u2014run 100% locally inside your web browser via WebAssembly byte streams. Your files never leave your device."
@@ -299,7 +311,7 @@ export const TOOLS_REGISTRY: ToolDefinition[] = [
       "json lint syntax checker"
     ],
     "seoTitle": "JSON Formatter & JWT Decoder \u2013 Validate & Inspect Tokens",
-    "seoDescription": "Format, validate, and minify JSON payloads while decoding JSON Web Tokens client-side. Inspect OAuth claims, fix syntax errors, with zero login required.",
+    "seoDescription": "Format, validate, and minify JSON while decoding JSON Web Tokens client-side. Inspect OAuth claims and fix syntax. 100% free with no login required.",
     "editorialGuide": {
       "howToSteps": [
         "Switch between the JSON Studio tab or JWT Decoder tab based on your payload.",
@@ -317,6 +329,10 @@ export const TOOLS_REGISTRY: ToolDefinition[] = [
       ]
     },
     "faqs": [
+      {
+        "question": "Is this tool 100% free to use, and is any login required?",
+        "answer": "Yes, this tool is 100% free with no login required, no account creation, no subscriptions, and zero paywalls. All calculations and processing run privately on your device."
+      },
       {
         "question": "Is it secure to paste production JWT tokens into this decoder?",
         "answer": "Yes, because decoding is conducted entirely client-side using JavaScript Base64URL string decoding. The token is never transmitted over the internet or logged to any analytics service."
@@ -386,7 +402,7 @@ export const TOOLS_REGISTRY: ToolDefinition[] = [
       "extract audio without upload"
     ],
     "seoTitle": "Video to Audio Converter \u2013 Extract MP3 from MP4 in Browser",
-    "seoDescription": "Extract crystal-clear MP3 or WAV audio tracks from MP4 and WebM videos using browser FFmpeg WASM. 100% private, zero upload bandwidth, and zero login.",
+    "seoDescription": "Extract crystal-clear MP3 or WAV audio from MP4 and WebM videos using browser FFmpeg WASM. 100% free with no login required and zero file uploads.",
     "editorialGuide": {
       "howToSteps": [
         "Drag and drop any video file (MP4, WebM, MKV, MOV) into the transcode workspace.",
@@ -404,6 +420,10 @@ export const TOOLS_REGISTRY: ToolDefinition[] = [
       ]
     },
     "faqs": [
+      {
+        "question": "Is this tool 100% free to use, and is any login required?",
+        "answer": "Yes, this tool is 100% free with no login required, no account creation, no subscriptions, and zero paywalls. All calculations and processing run privately on your device."
+      },
       {
         "question": "How does video-to-audio conversion work without uploading files to a server?",
         "answer": "We utilize FFmpeg compiled into WebAssembly (WASM). Your device's local CPU executes the transcoding engine directly inside a sandboxed Web Worker, converting media in local memory."
@@ -473,7 +493,7 @@ export const TOOLS_REGISTRY: ToolDefinition[] = [
       "maxresdefault thumbnail download"
     ],
     "seoTitle": "YouTube Thumbnail Downloader \u2013 Get HD 1080p Thumbnails",
-    "seoDescription": "Download full HD 1080p YouTube thumbnails and extract video SEO tags in one click. Test feed contrast in light and dark modes with zero login required.",
+    "seoDescription": "Download full HD 1080p YouTube thumbnails and extract video SEO tags in 1 click. Preview feed in light/dark mode. 100% free with no login required.",
     "editorialGuide": {
       "howToSteps": [
         "Copy the video URL of any standard YouTube video, Shorts clip, or Live stream.",
@@ -491,6 +511,10 @@ export const TOOLS_REGISTRY: ToolDefinition[] = [
       ]
     },
     "faqs": [
+      {
+        "question": "Is this tool 100% free to use, and is any login required?",
+        "answer": "Yes, this tool is 100% free with no login required, no account creation, no subscriptions, and zero paywalls. All calculations and processing run privately on your device."
+      },
       {
         "question": "Why do some YouTube videos not offer a 1080p MaxRes thumbnail?",
         "answer": "YouTube creates maxresdefault.jpg only when the creator uploads a custom thumbnail of at least 1280x720 pixels. If unavailable, our tool automatically falls back to the highest available quality (hqdefault)."
@@ -560,7 +584,7 @@ export const TOOLS_REGISTRY: ToolDefinition[] = [
       "photo size reducer in kb"
     ],
     "seoTitle": "Image Compressor \u2013 Compress JPG, PNG & WebP Online Free",
-    "seoDescription": "Compress JPG, PNG, and WebP images in bulk with real-time preview and custom quality controls. 100% private in-browser compression with zero login required.",
+    "seoDescription": "Compress JPG, PNG, and WebP images in bulk with real-time preview, visual slider, and quality settings. 100% free with no login required online.",
     "editorialGuide": {
       "howToSteps": [
         "Drag and drop up to 10 JPG, PNG, or WebP images into the bulk compressor drop zone.",
@@ -578,6 +602,10 @@ export const TOOLS_REGISTRY: ToolDefinition[] = [
       ]
     },
     "faqs": [
+      {
+        "question": "Is this tool 100% free to use, and is any login required?",
+        "answer": "Yes, this tool is 100% free with no login required, no account creation, no subscriptions, and zero paywalls. All calculations and processing run privately on your device."
+      },
       {
         "question": "How much file size reduction can I expect from image compression?",
         "answer": "Converting raw PNGs or unoptimized JPEGs to modern WebP format typically cuts file size by 65% to 85% while preserving visual clarity and sharp lines."
@@ -647,7 +675,7 @@ export const TOOLS_REGISTRY: ToolDefinition[] = [
       "mifflin st jeor formula"
     ],
     "seoTitle": "TDEE & Macro Calculator \u2013 Daily Calories & Protein Plan",
-    "seoDescription": "Calculate your TDEE, BMR, and macronutrient targets for cutting, maintenance, or lean bulking. Precise Mifflin-St Jeor formula with zero login online.",
+    "seoDescription": "Calculate your daily TDEE, BMR, and exact macro targets for cutting, maintenance, or bulking via Mifflin-St Jeor. 100% free with no login required.",
     "editorialGuide": {
       "howToSteps": [
         "Select your gender and input your current age, weight (kg or lbs), and height (cm or ft/in).",
@@ -665,6 +693,10 @@ export const TOOLS_REGISTRY: ToolDefinition[] = [
       ]
     },
     "faqs": [
+      {
+        "question": "Is this tool 100% free to use, and is any login required?",
+        "answer": "Yes, this tool is 100% free with no login required, no account creation, no subscriptions, and zero paywalls. All calculations and processing run privately on your device."
+      },
       {
         "question": "What is the physiological difference between BMR and TDEE?",
         "answer": "BMR (Basal Metabolic Rate) is the energy expended at rest to sustain vital bodily functions like respiration and circulation. TDEE (Total Daily Energy Expenditure) adds daily movement, exercise, and digestion to your BMR."
@@ -735,7 +767,7 @@ export const TOOLS_REGISTRY: ToolDefinition[] = [
       "offline password generator"
     ],
     "seoTitle": "Password & Hash Generator \u2013 Cryptographic Entropy Checker",
-    "seoDescription": "Generate cryptographically secure passwords and verify SHA-256 hashes in your browser. Measure brute-force entropy bits with zero login and full privacy.",
+    "seoDescription": "Generate CSPRNG passwords and compute SHA-256/MD5 hashes in your browser. Measure brute-force entropy bits online. 100% free with no login required.",
     "editorialGuide": {
       "howToSteps": [
         "Switch between the CSPRNG Password Generator tab and Cryptographic Hash Generator tab.",
@@ -753,6 +785,10 @@ export const TOOLS_REGISTRY: ToolDefinition[] = [
       ]
     },
     "faqs": [
+      {
+        "question": "Is this tool 100% free to use, and is any login required?",
+        "answer": "Yes, this tool is 100% free with no login required, no account creation, no subscriptions, and zero paywalls. All calculations and processing run privately on your device."
+      },
       {
         "question": "How does this generator differ from standard random password tools?",
         "answer": "Standard online tools often use Math.random(), which is pseudo-random and predictable. We exclusively use window.crypto.getRandomValues(), hardware-backed CSPRNG meeting military security standards."
@@ -823,7 +859,7 @@ export const TOOLS_REGISTRY: ToolDefinition[] = [
       "word count for essays"
     ],
     "seoTitle": "Word Counter & Text Analyzer \u2013 Character & Case Tool",
-    "seoDescription": "Analyze text with word, character, and sentence counts, reading time, and keyword density. Convert case formats instantly online with zero login required.",
+    "seoDescription": "Analyze text with word, character, sentence counts, reading time, and keyword density. Convert case formats instantly. 100% free with no login required.",
     "editorialGuide": {
       "howToSteps": [
         "Paste or type your draft text into the live analytical editor.",
@@ -841,6 +877,10 @@ export const TOOLS_REGISTRY: ToolDefinition[] = [
       ]
     },
     "faqs": [
+      {
+        "question": "Is this tool 100% free to use, and is any login required?",
+        "answer": "Yes, this tool is 100% free with no login required, no account creation, no subscriptions, and zero paywalls. All calculations and processing run privately on your device."
+      },
       {
         "question": "How is estimated reading and speaking time calculated?",
         "answer": "Reading time is modeled on the average adult silent reading speed of 225 words per minute (WPM). Speaking time is modeled on a conversational keynote delivery rate of 130 WPM."

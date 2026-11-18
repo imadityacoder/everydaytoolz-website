@@ -70,7 +70,22 @@ export async function generateMetadata({
     notFound();
   }
 
-  const keywords = [tool.primaryKeyword, ...(tool.secondaryKeywords || [])];
+  const baseKeywords = [
+    "100% free online tool",
+    "no login required",
+    "free online calculator",
+    "no signup required",
+  ];
+
+  const keywords = Array.from(
+    new Set([
+      tool.primaryKeyword,
+      `${tool.primaryKeyword} 100% free`,
+      `${tool.primaryKeyword} no login required`,
+      ...(tool.secondaryKeywords || []),
+      ...baseKeywords,
+    ])
+  );
 
   return {
     title: tool.seoTitle,
@@ -132,6 +147,7 @@ export default async function ToolPage({
           "@type": "Offer",
           price: "0",
           priceCurrency: "USD",
+          description: "100% free with no login required",
         },
         description: tool.seoDescription || tool.shortDescription,
         url: `https://tools.replaner.in/${tool.slug}`,

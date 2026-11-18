@@ -112,7 +112,12 @@ export function ToolShell({ tool, children }: ToolShellProps) {
             </p>
 
             {/* Real-Time Live Usage & Rating Badge */}
-            <div className="flex items-center gap-3 pt-1 text-xs text-muted-foreground">
+            <div className="flex flex-wrap items-center gap-2.5 pt-1 text-xs text-muted-foreground">
+              <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-md bg-emerald-500/10 border border-emerald-500/30 text-emerald-500 dark:text-emerald-400 font-semibold text-[11px]">
+                <Check className="w-3.5 h-3.5" />
+                <span>100% Free • No Login Required</span>
+              </span>
+
               <span className="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-md bg-muted/60 border border-border/60 font-mono">
                 <Eye className="w-3.5 h-3.5 text-primary" />
                 <span>

@@ -220,6 +220,9 @@ export function CommandPalette() {
               <kbd className="px-1.5 py-0.5 bg-card border border-border rounded font-mono text-[10px]">↵</kbd>
               Open
             </span>
+            <span className="hidden sm:inline-flex text-emerald-500 font-medium">
+              • 100% Free • No Login Required
+            </span>
           </div>
           <div className="flex items-center gap-1">
             <Command className="w-3 h-3" />

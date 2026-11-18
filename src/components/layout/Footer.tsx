@@ -34,8 +34,8 @@ export function Footer() {
               <ShieldCheck className="w-4 h-4" />
             </div>
             <div>
-              <p className="text-xs font-semibold text-foreground">Zero Login Required</p>
-              <p className="text-[11px] text-muted-foreground">Instant access above the fold, no paywalls</p>
+              <p className="text-xs font-semibold text-foreground">100% Free • No Login Required</p>
+              <p className="text-[11px] text-muted-foreground">Unlimited free access with zero signups or paywalls</p>
             </div>
           </div>
         </div>

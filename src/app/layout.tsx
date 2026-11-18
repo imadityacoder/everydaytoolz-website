@@ -8,12 +8,16 @@ import { Footer } from "@/components/layout/Footer";
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://tools.replaner.in"),
   title: {
-    default: "EveryDayToolz – Free Daily Finance, PDF, Developer & Media Utilities",
+    default: "EveryDayToolz – 100% Free Online Tools & Calculators (No Login Required)",
     template: "%s | EveryDayToolz",
   },
   description:
-    "Fast, zero-latency, private online utilities. Calculate SIP investments, loan EMIs, merge PDFs, transcode video to audio, decode JWTs, and compress images with 100% client-side execution.",
+    "100% free online utilities with no login required. Fast, private, client-side tools: SIP calculator, loan EMI, PDF merger, video-to-audio converter, JWT studio, image compressor, and password generator.",
   keywords: [
+    "100% free online tools",
+    "no login required",
+    "free tools no signup",
+    "free calculators no login",
     "free online tools",
     "sip calculator",
     "emi calculator",
@@ -27,8 +31,8 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "EveryDayToolz" }],
   openGraph: {
-    title: "EveryDayToolz – Free Daily Finance, PDF, Developer & Media Utilities",
-    description: "Zero AI cost, 100% browser memory execution, zero login required.",
+    title: "EveryDayToolz – 100% Free Online Tools (No Login Required)",
+    description: "100% free utilities with no login required. 100% browser memory execution, zero data collection.",
     url: "https://tools.replaner.in",
     siteName: "EveryDayToolz",
     locale: "en_US",
@@ -36,12 +40,15 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "EveryDayToolz – Free Daily Finance, PDF, Developer & Media Utilities",
-    description: "High performance client-side tools with zero data collection.",
+    title: "EveryDayToolz – 100% Free Online Tools (No Login Required)",
+    description: "100% free tools with no login required. High performance client-side execution.",
   },
   robots: {
     index: true,
     follow: true,
+  },
+  verification: {
+    google: "lzGSZts9QP7IYlBqjzOrj3lgbdbYwWSCRrQbBxK8YoU",
   },
 };
 

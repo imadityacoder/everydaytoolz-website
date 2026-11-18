@@ -57,18 +57,18 @@ export default function HomePage() {
       <section className="relative text-center py-6 sm:py-10 space-y-4">
         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/25 text-xs font-semibold text-primary mb-2">
           <Zap className="w-3.5 h-3.5" />
-          <span>Zero Server Uploads • 100% In-Browser Memory</span>
+          <span>100% Free • No Login Required • In-Browser Execution</span>
         </div>
 
         <h1 className="text-3xl sm:text-5xl font-black tracking-tight text-foreground max-w-3xl mx-auto leading-tight">
           Deterministic Daily Utilities.{" "}
           <span className="bg-gradient-to-r from-brand-indigo via-brand-cyan to-primary bg-clip-text text-transparent">
-            Instant & Private.
+            Instant, Private & 100% Free.
           </span>
         </h1>
 
         <p className="text-sm sm:text-base text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-          Ten daily-use engineering, financial, media, and security tools running client-side with WebAssembly and hardware cryptography. No accounts, no paywalls, zero latency.
+          Ten daily-use engineering, financial, media, and security tools running client-side with WebAssembly and hardware cryptography. <strong>100% free with no login required</strong>, no paywalls, zero latency.
         </p>
 
         {/* Search & Filter Bar */}
@@ -155,9 +155,9 @@ export default function HomePage() {
                 </div>
 
                 <div className="flex items-center justify-between pt-4 mt-4 border-t border-border/40 text-xs">
-                  <span className="text-muted-foreground/80 flex items-center gap-1">
-                    <Cpu className="w-3.5 h-3.5 text-brand-cyan" />
-                    <span>Client Execution</span>
+                  <span className="text-muted-foreground/80 flex items-center gap-1.5">
+                    <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 shrink-0" />
+                    <span>100% Free • No Login</span>
                   </span>
                   <span className="inline-flex items-center gap-1 text-primary font-semibold group-hover:translate-x-0.5 transition-transform">
                     <span>Open Tool</span>

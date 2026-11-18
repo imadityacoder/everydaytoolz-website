@@ -107,8 +107,8 @@ export function AppHeader() {
             <span className="font-bold text-base sm:text-lg tracking-tight bg-gradient-to-r from-foreground via-foreground/90 to-primary bg-clip-text text-transparent">
               EveryDay<span className="text-primary font-black">Toolz</span>
             </span>
-            <span className="text-[10px] text-muted-foreground/80 -mt-1 hidden sm:inline">
-              100% Client-Side Micro-SaaS
+            <span className="text-[10px] text-emerald-500 font-semibold -mt-1 hidden sm:inline">
+              100% Free • No Login Required
             </span>
           </div>
         </Link>
