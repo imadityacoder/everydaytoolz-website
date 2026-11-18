@@ -8,8 +8,8 @@ import { Footer } from "@/components/layout/Footer";
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://tools.replaner.in"),
   title: {
-    default: "RePlaner Tools – Free Daily Finance, PDF, Developer & Media Utilities",
-    template: "%s | RePlaner Tools",
+    default: "EveryDayToolz – Free Daily Finance, PDF, Developer & Media Utilities",
+    template: "%s | EveryDayToolz",
   },
   description:
     "Fast, zero-latency, private online utilities. Calculate SIP investments, loan EMIs, merge PDFs, transcode video to audio, decode JWTs, and compress images with 100% client-side execution.",
@@ -25,18 +25,18 @@ export const metadata: Metadata = {
     "password generator",
     "word counter",
   ],
-  authors: [{ name: "RePlaner Tools" }],
+  authors: [{ name: "EveryDayToolz" }],
   openGraph: {
-    title: "RePlaner Tools – Free Daily Finance, PDF, Developer & Media Utilities",
+    title: "EveryDayToolz – Free Daily Finance, PDF, Developer & Media Utilities",
     description: "Zero AI cost, 100% browser memory execution, zero login required.",
     url: "https://tools.replaner.in",
-    siteName: "RePlaner Tools",
+    siteName: "EveryDayToolz",
     locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "RePlaner Tools – Free Daily Finance, PDF, Developer & Media Utilities",
+    title: "EveryDayToolz – Free Daily Finance, PDF, Developer & Media Utilities",
     description: "High performance client-side tools with zero data collection.",
   },
   robots: {

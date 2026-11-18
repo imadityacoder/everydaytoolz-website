@@ -279,10 +279,10 @@ export function generateSampleJwt(type: "active" | "expired" | "no_exp"): string
   };
 
   let payload: JwtClaims = {
-    iss: "https://auth.replaner.in",
+    iss: "https://auth.everydaytoolz.com",
     sub: "usr_8829104",
-    aud: "https://api.replaner.in/v1",
-    email: "developer@replaner.in",
+    aud: "https://api.everydaytoolz.com/v1",
+    email: "developer@everydaytoolz.com",
     name: "Alex Morgan",
     roles: ["admin", "developer"],
     iat: now - 3600, // issued 1 hour ago

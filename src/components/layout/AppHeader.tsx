@@ -105,7 +105,7 @@ export function AppHeader() {
           </div>
           <div className="flex flex-col">
             <span className="font-bold text-base sm:text-lg tracking-tight bg-gradient-to-r from-foreground via-foreground/90 to-primary bg-clip-text text-transparent">
-              RePlaner <span className="text-primary font-black">Tools</span>
+              EveryDay<span className="text-primary font-black">Toolz</span>
             </span>
             <span className="text-[10px] text-muted-foreground/80 -mt-1 hidden sm:inline">
               100% Client-Side Micro-SaaS

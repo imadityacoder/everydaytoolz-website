@@ -22,7 +22,7 @@ export default async function Image({
   const { slug } = await params;
   const tool = getToolBySlug(slug);
 
-  const name = tool?.name || "RePlaner Online Tool";
+  const name = tool?.name || "EveryDayToolz Utility";
   const categoryMeta = CATEGORIES.find((c) => c.id === tool?.category);
   const categoryName = categoryMeta?.name || (tool?.category || "Utility").toUpperCase();
   const description =
@@ -75,17 +75,18 @@ export default async function Image({
                 fontWeight: "bold",
               }}
             >
-              R
+              E
             </div>
             <div
               style={{
+                display: "flex",
                 fontSize: "26px",
                 fontWeight: "700",
                 color: "#FFFFFF",
                 letterSpacing: "-0.5px",
               }}
             >
-              RePlaner Tools
+              EveryDay<span style={{ color: "#7C4DFF" }}>Toolz</span>
             </div>
           </div>
 

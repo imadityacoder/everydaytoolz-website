@@ -319,7 +319,7 @@ export default function TdeeMacroCalculator() {
 • Fats: ${fatGrams}g (${fatPct}% • ${fatCals} kcal)
 • Per Meal (${mealCount} meals): ~${Math.round(targetCalories / mealCount)} kcal | ${Math.round(proteinGrams / mealCount)}g P | ${Math.round(carbGrams / mealCount)}g C | ${Math.round(fatGrams / mealCount)}g F
 ----------------------------------
-Generated via RePlaner Fitness Engine`;
+Generated via EveryDayToolz Fitness Engine`;
 
     try {
       await navigator.clipboard.writeText(summary);

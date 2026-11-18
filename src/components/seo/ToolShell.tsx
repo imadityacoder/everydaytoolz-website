@@ -60,7 +60,7 @@ export function ToolShell({ tool, children }: ToolShellProps) {
     if (navigator.share) {
       try {
         await navigator.share({
-          title: `${tool.name} | RePlaner Tools`,
+          title: `${tool.name} | EveryDayToolz`,
           text: tool.shortDescription,
           url: window.location.href,
         });
