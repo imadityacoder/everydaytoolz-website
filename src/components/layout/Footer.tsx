@@ -60,21 +60,79 @@ export function Footer() {
             </p>
           </div>
 
+          {/* Popular Utilities */}
+          <div className="space-y-2">
+            <p className="text-xs font-semibold uppercase tracking-wider text-foreground">
+              Popular Tools
+            </p>
+            <ul className="space-y-1.5 text-xs text-muted-foreground">
+              <li>
+                <Link href="/sip-calculator" className="hover:text-foreground transition-colors">
+                  SIP Calculator
+                </Link>
+              </li>
+              <li>
+                <Link href="/pdf-toolkit" className="hover:text-foreground transition-colors">
+                  PDF Toolkit
+                </Link>
+              </li>
+              <li>
+                <Link href="/video-to-audio" className="hover:text-foreground transition-colors">
+                  Video to Audio
+                </Link>
+              </li>
+              <li>
+                <Link href="/json-jwt-studio" className="hover:text-foreground transition-colors">
+                  JSON & JWT Studio
+                </Link>
+              </li>
+            </ul>
+          </div>
+
           {/* Dynamic Categories */}
-          {CATEGORIES.slice(0, 3).map((category) => (
-            <div key={category.id} className="space-y-2">
-              <p className="text-xs font-semibold uppercase tracking-wider text-foreground">
-                {category.name.split(" ")[0]}
-              </p>
-              <ul className="space-y-1.5 text-xs text-muted-foreground">
-                <li>
+          <div className="space-y-2">
+            <p className="text-xs font-semibold uppercase tracking-wider text-foreground">
+              Categories
+            </p>
+            <ul className="space-y-1.5 text-xs text-muted-foreground">
+              {CATEGORIES.slice(0, 4).map((category) => (
+                <li key={category.id}>
                   <Link href={`/?category=${category.id}`} className="hover:text-foreground transition-colors">
-                    Browse All {category.name.split(" ")[0]}
+                    {category.name}
                   </Link>
                 </li>
-              </ul>
-            </div>
-          ))}
+              ))}
+            </ul>
+          </div>
+
+          {/* Legal & Company */}
+          <div className="space-y-2">
+            <p className="text-xs font-semibold uppercase tracking-wider text-foreground">
+              Legal & Info
+            </p>
+            <ul className="space-y-1.5 text-xs text-muted-foreground">
+              <li>
+                <Link href="/about" className="hover:text-foreground transition-colors">
+                  About Us
+                </Link>
+              </li>
+              <li>
+                <Link href="/contact" className="hover:text-foreground transition-colors">
+                  Contact
+                </Link>
+              </li>
+              <li>
+                <Link href="/privacy" className="hover:text-foreground transition-colors">
+                  Privacy Policy
+                </Link>
+              </li>
+              <li>
+                <Link href="/terms" className="hover:text-foreground transition-colors">
+                  Terms of Service
+                </Link>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </footer>

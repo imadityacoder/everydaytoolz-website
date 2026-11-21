@@ -2,7 +2,8 @@ import { MetadataRoute } from "next";
 import { TOOLS_REGISTRY } from "@/config/tools-registry";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://tools.replaner.in";
+  const rawBaseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://tools.replaner.in";
+  const baseUrl = rawBaseUrl.replace(/\/+$/, "");
 
   const staticRoutes: MetadataRoute.Sitemap = [
     {
