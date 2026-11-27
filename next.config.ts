@@ -1,8 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  basePath: "/tools",
   reactStrictMode: true,
+  allowedDevOrigins: ["192.168.29.144"],
   async headers() {
     return [
       {

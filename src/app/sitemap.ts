@@ -2,7 +2,7 @@ import { MetadataRoute } from "next";
 import { TOOLS_REGISTRY } from "@/config/tools-registry";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const rawBaseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://replaner.in/tools";
+  const rawBaseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://replaner.in";
   const baseUrl = rawBaseUrl.replace(/\/+$/, "");
 
   const staticRoutes: MetadataRoute.Sitemap = [
@@ -15,17 +15,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ];
 
   const toolRoutes: MetadataRoute.Sitemap = TOOLS_REGISTRY.map((tool) => ({
-    url: `${baseUrl}/${tool.slug}`,
+    url: `${baseUrl}/tools/${tool.slug}`,
     lastModified: new Date(),
     changeFrequency: "weekly",
     priority: 0.9,
   }));
 
   const complianceRoutes: MetadataRoute.Sitemap = [
-    "/privacy",
+    "/contact",
     "/terms",
     "/about",
-    "/contact",
+    "/privacy",
   ].map((route) => ({
     url: `${baseUrl}${route}`,
     lastModified: new Date(),

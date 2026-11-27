@@ -177,13 +177,13 @@ export default async function ToolPage({
             "@type": "ListItem",
             position: 1,
             name: "Home",
-            item: "https://replaner.in/tools",
+            item: "https://replaner.in",
           },
           {
             "@type": "ListItem",
             position: 2,
             name: categoryName,
-            item: `https://replaner.in/tools?category=${tool.category}`,
+            item: `https://replaner.in?category=${tool.category}`,
           },
           {
             "@type": "ListItem",

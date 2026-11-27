@@ -7,7 +7,7 @@ import { CommandPalette } from "@/components/layout/CommandPalette";
 import { Footer } from "@/components/layout/Footer";
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://replaner.in/tools"),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://replaner.in"),
   title: {
     default: "EveryDayToolz – 100% Free Online Tools & Calculators (No Login Required)",
     template: "%s | EveryDayToolz",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "EveryDayToolz – 100% Free Online Tools (No Login Required)",
     description: "100% free utilities with no login required. 100% browser memory execution, zero data collection.",
-    url: "https://replaner.in/tools",
+    url: "https://replaner.in",
     siteName: "EveryDayToolz",
     locale: "en_US",
     type: "website",

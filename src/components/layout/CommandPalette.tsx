@@ -85,7 +85,7 @@ export function CommandPalette() {
 
   const handleSelect = (tool: ToolDefinition) => {
     setIsOpen(false);
-    router.push(`/${tool.slug}`);
+    router.push(`/tools/${tool.slug}`);
   };
 
   const handleKeyDown = (e: React.KeyboardEvent) => {

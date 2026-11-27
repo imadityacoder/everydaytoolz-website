@@ -283,7 +283,7 @@ export function ToolShell({ tool, children }: ToolShellProps) {
               {relatedTools.map((relTool) => (
                 <Link
                   key={relTool.id}
-                  href={`/${relTool.slug}`}
+                  href={`/tools/${relTool.slug}`}
                   className="p-3.5 rounded-xl border border-border/70 bg-card/40 hover:bg-card hover:border-primary/40 transition-all group flex flex-col justify-between"
                 >
                   <div>

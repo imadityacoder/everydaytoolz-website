@@ -122,7 +122,7 @@ export function AppHeader() {
           {CATEGORIES.map((cat) => {
             const CatIcon = CATEGORY_ICONS[cat.icon] || Sparkles;
             const toolsInCat = TOOLS_REGISTRY.filter((t) => t.category === cat.id);
-            const isCategoryActive = toolsInCat.some((t) => pathname === `/${t.slug}`);
+            const isCategoryActive = toolsInCat.some((t) => pathname === `/tools/${t.slug}`);
             const isOpen = activeDropdown === cat.id;
 
             return (
@@ -170,14 +170,13 @@ export function AppHeader() {
                     <div className="space-y-0.5">
                       {toolsInCat.map((tool) => {
                         const ToolIcon = TOOL_ICONS[tool.iconName] || TrendingUp;
-                        const isToolActive = pathname === `/${tool.slug}`;
+                        const isToolActive = pathname === `/tools/${tool.slug}`;
 
                         return (
                           <Link
                             key={tool.id}
-                            href={`/${tool.slug}`}
-                            onClick={() => setActiveDropdown(null)}
-                            className={`flex items-start gap-3 p-2 rounded-xl transition-all ${
+                            href={`/tools/${tool.slug}`}
+                            onClick={() => setActiveDropdown(null)}                            className={`flex items-start gap-3 p-2 rounded-xl transition-all ${
                               isToolActive
                                 ? "bg-primary/15 border border-primary/30 text-primary"
                                 : "hover:bg-muted/50 text-muted-foreground hover:text-foreground"
@@ -282,12 +281,12 @@ export function AppHeader() {
                   <div className="grid grid-cols-1 gap-1">
                     {toolsInCat.map((tool) => {
                       const Icon = TOOL_ICONS[tool.iconName] || TrendingUp;
-                      const isActive = pathname === `/${tool.slug}`;
+                      const isActive = pathname === `/tools/${tool.slug}`;
 
                       return (
                         <Link
                           key={tool.id}
-                          href={`/${tool.slug}`}
+                          href={`/tools/${tool.slug}`}
                           onClick={() => setMobileMenuOpen(false)}
                           className={`flex items-center justify-between p-2.5 rounded-xl text-sm transition-all ${
                             isActive

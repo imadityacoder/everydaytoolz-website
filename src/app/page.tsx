@@ -125,7 +125,7 @@ export default function HomePage() {
             return (
               <Link
                 key={tool.id}
-                href={`/${tool.slug}`}
+                href={`/tools/${tool.slug}`}
                 className="group p-5 rounded-2xl border border-border/70 bg-card/50 hover:bg-card hover:border-primary/50 transition-all duration-200 flex flex-col justify-between shadow-xs hover:shadow-md hover:-translate-y-0.5"
               >
                 <div>

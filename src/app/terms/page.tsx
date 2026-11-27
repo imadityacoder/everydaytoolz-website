@@ -8,13 +8,13 @@ export const metadata: Metadata = {
   description:
     "EveryDayToolz Terms of Service: rules, disclaimers, and guidelines for using our 100% free online browser tools.",
   alternates: {
-    canonical: "https://replaner.in/tools/terms",
+    canonical: "https://replaner.in/terms",
   },
   openGraph: {
     title: "Terms of Service | EveryDayToolz",
     description:
       "EveryDayToolz Terms of Service: rules, disclaimers, and guidelines for using our 100% free online browser tools.",
-    url: "https://replaner.in/tools/terms",
+    url: "https://replaner.in/terms",
   },
 };
 

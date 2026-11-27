@@ -8,13 +8,13 @@ export const metadata: Metadata = {
   description:
     "EveryDayToolz Privacy Policy: 100% private in-browser tool execution, zero data collection, no account registration required.",
   alternates: {
-    canonical: "https://replaner.in/tools/privacy",
+    canonical: "https://replaner.in/privacy",
   },
   openGraph: {
     title: "Privacy Policy | EveryDayToolz",
     description:
       "EveryDayToolz Privacy Policy: 100% private in-browser tool execution, zero data collection, no account registration required.",
-    url: "https://replaner.in/tools/privacy",
+    url: "https://replaner.in/privacy",
   },
 };
 

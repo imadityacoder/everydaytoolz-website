@@ -67,22 +67,22 @@ export function Footer() {
             </p>
             <ul className="space-y-1.5 text-xs text-muted-foreground">
               <li>
-                <Link href="/sip-calculator" className="hover:text-foreground transition-colors">
+                <Link href="/tools/sip-calculator" className="hover:text-foreground transition-colors">
                   SIP Calculator
                 </Link>
               </li>
               <li>
-                <Link href="/pdf-toolkit" className="hover:text-foreground transition-colors">
+                <Link href="/tools/pdf-toolkit" className="hover:text-foreground transition-colors">
                   PDF Toolkit
                 </Link>
               </li>
               <li>
-                <Link href="/video-to-audio" className="hover:text-foreground transition-colors">
+                <Link href="/tools/video-to-audio" className="hover:text-foreground transition-colors">
                   Video to Audio
                 </Link>
               </li>
               <li>
-                <Link href="/json-jwt-studio" className="hover:text-foreground transition-colors">
+                <Link href="/tools/json-jwt-studio" className="hover:text-foreground transition-colors">
                   JSON & JWT Studio
                 </Link>
               </li>

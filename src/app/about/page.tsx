@@ -9,13 +9,13 @@ export const metadata: Metadata = {
   description:
     "Learn about EveryDayToolz: deterministic, high-speed, 100% private online utilities designed with WebAssembly and local-first browser execution.",
   alternates: {
-    canonical: "https://replaner.in/tools/about",
+    canonical: "https://replaner.in/about",
   },
   openGraph: {
     title: "About Us | EveryDayToolz",
     description:
       "Learn about EveryDayToolz: deterministic, high-speed, 100% private online utilities designed with WebAssembly and local-first browser execution.",
-    url: "https://replaner.in/tools/about",
+    url: "https://replaner.in/about",
   },
 };
 
@@ -101,7 +101,7 @@ export default function AboutPage() {
           {TOOLS_REGISTRY.map((tool) => (
             <Link
               key={tool.id}
-              href={`/${tool.slug}`}
+              href={`/tools/${tool.slug}`}
               className="p-3.5 rounded-xl border border-border/60 bg-card/40 hover:bg-card hover:border-primary/40 transition-colors flex items-center justify-between group"
             >
               <div>
