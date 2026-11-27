@@ -8,13 +8,13 @@ export const metadata: Metadata = {
   description:
     "EveryDayToolz Terms of Service: rules, disclaimers, and guidelines for using our 100% free online browser tools.",
   alternates: {
-    canonical: "/terms",
+    canonical: "https://replaner.in/tools/terms",
   },
   openGraph: {
     title: "Terms of Service | EveryDayToolz",
     description:
       "EveryDayToolz Terms of Service: rules, disclaimers, and guidelines for using our 100% free online browser tools.",
-    url: "https://tools.replaner.in/terms",
+    url: "https://replaner.in/tools/terms",
   },
 };
 
@@ -45,7 +45,7 @@ export default function TermsPage() {
         <section className="space-y-3">
           <h2 className="text-lg font-bold text-foreground">1. Agreement to Terms</h2>
           <p>
-            By accessing or using EveryDayToolz (<strong className="text-foreground">tools.replaner.in</strong>), you agree
+            By accessing or using EveryDayToolz (<strong className="text-foreground">replaner.in/tools</strong>), you agree
             to be bound by these Terms of Service and all applicable laws and regulations. If you do not agree with any of these terms,
             you are prohibited from using or accessing this site.
           </p>

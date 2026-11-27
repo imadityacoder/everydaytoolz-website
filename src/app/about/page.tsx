@@ -9,13 +9,13 @@ export const metadata: Metadata = {
   description:
     "Learn about EveryDayToolz: deterministic, high-speed, 100% private online utilities designed with WebAssembly and local-first browser execution.",
   alternates: {
-    canonical: "/about",
+    canonical: "https://replaner.in/tools/about",
   },
   openGraph: {
     title: "About Us | EveryDayToolz",
     description:
       "Learn about EveryDayToolz: deterministic, high-speed, 100% private online utilities designed with WebAssembly and local-first browser execution.",
-    url: "https://tools.replaner.in/about",
+    url: "https://replaner.in/tools/about",
   },
 };
 

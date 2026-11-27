@@ -6,7 +6,7 @@ interface JsonLdScriptProps {
   siteUrl?: string;
 }
 
-export function JsonLdScript({ tool, siteUrl = "https://tools.replaner.in" }: JsonLdScriptProps) {
+export function JsonLdScript({ tool, siteUrl = "https://replaner.in/tools" }: JsonLdScriptProps) {
   const toolUrl = `${siteUrl}/${tool.slug}`;
 
   // SoftwareApplication Schema

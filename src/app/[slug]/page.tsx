@@ -92,12 +92,12 @@ export async function generateMetadata({
     description: tool.seoDescription,
     keywords,
     alternates: {
-      canonical: `/${tool.slug}`,
+      canonical: `https://replaner.in/tools/${tool.slug}`,
     },
     openGraph: {
       title: tool.seoTitle,
       description: tool.seoDescription,
-      url: `https://tools.replaner.in/${tool.slug}`,
+      url: `https://replaner.in/tools/${tool.slug}`,
       type: "website",
     },
     twitter: {
@@ -150,7 +150,7 @@ export default async function ToolPage({
           description: "100% free with no login required",
         },
         description: tool.seoDescription || tool.shortDescription,
-        url: `https://tools.replaner.in/${tool.slug}`,
+        url: `https://replaner.in/tools/${tool.slug}`,
         aggregateRating: {
           "@type": "AggregateRating",
           ratingValue: "4.9",
@@ -177,19 +177,19 @@ export default async function ToolPage({
             "@type": "ListItem",
             position: 1,
             name: "Home",
-            item: "https://tools.replaner.in",
+            item: "https://replaner.in/tools",
           },
           {
             "@type": "ListItem",
             position: 2,
             name: categoryName,
-            item: `https://tools.replaner.in/?category=${tool.category}`,
+            item: `https://replaner.in/tools?category=${tool.category}`,
           },
           {
             "@type": "ListItem",
             position: 3,
             name: tool.name,
-            item: `https://tools.replaner.in/${tool.slug}`,
+            item: `https://replaner.in/tools/${tool.slug}`,
           },
         ],
       },

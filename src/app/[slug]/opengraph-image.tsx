@@ -178,7 +178,7 @@ export default async function Image({
               fontFamily: "monospace",
             }}
           >
-            {`tools.replaner.in/${slug}`}
+            {`replaner.in/tools/${slug}`}
           </div>
         </div>
       </div>

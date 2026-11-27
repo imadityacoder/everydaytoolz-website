@@ -8,13 +8,13 @@ export const metadata: Metadata = {
   description:
     "Get in touch with the EveryDayToolz team for inquiries, bug reports, feature suggestions, or business partnerships.",
   alternates: {
-    canonical: "/contact",
+    canonical: "https://replaner.in/tools/contact",
   },
   openGraph: {
     title: "Contact Us | EveryDayToolz",
     description:
       "Get in touch with the EveryDayToolz team for inquiries, bug reports, feature suggestions, or business partnerships.",
-    url: "https://tools.replaner.in/contact",
+    url: "https://replaner.in/tools/contact",
   },
 };
 

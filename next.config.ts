@@ -1,16 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  basePath: "/tools",
   reactStrictMode: true,
-  async redirects() {
-    return [
-      {
-        source: "/tools/:slug",
-        destination: "/:slug",
-        permanent: true,
-      },
-    ];
-  },
   async headers() {
     return [
       {

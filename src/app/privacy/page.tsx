@@ -8,13 +8,13 @@ export const metadata: Metadata = {
   description:
     "EveryDayToolz Privacy Policy: 100% private in-browser tool execution, zero data collection, no account registration required.",
   alternates: {
-    canonical: "/privacy",
+    canonical: "https://replaner.in/tools/privacy",
   },
   openGraph: {
     title: "Privacy Policy | EveryDayToolz",
     description:
       "EveryDayToolz Privacy Policy: 100% private in-browser tool execution, zero data collection, no account registration required.",
-    url: "https://tools.replaner.in/privacy",
+    url: "https://replaner.in/tools/privacy",
   },
 };
 
@@ -79,7 +79,7 @@ export default function PrivacyPage() {
           <h2 className="text-lg font-bold text-foreground">1. Introduction</h2>
           <p>
             Welcome to EveryDayToolz (&ldquo;we&rdquo;, &ldquo;our&rdquo;, or &ldquo;us&rdquo;), hosted at{" "}
-            <strong className="text-foreground">tools.replaner.in</strong>. We provide deterministic, high-speed,
+            <strong className="text-foreground">replaner.in/tools</strong>. We provide deterministic, high-speed,
             browser-based developer, financial, media, and productivity tools. We respect your personal privacy and
             are committed to protecting it through our privacy-by-design architecture.
           </p>
